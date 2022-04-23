@@ -1,0 +1,14 @@
+{
+  "name": "vel-dropdown",
+  "version": "1.0.0",
+  "description": "A common dropdown menu generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dami",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.6.2"
+  }
+}
