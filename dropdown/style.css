@@ -2,6 +2,7 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 nav {
@@ -15,7 +16,7 @@ nav {
     transition: all 0.3s ease-in-out;
 }
 
-.parentItem:hover {
+.parentItem.active {
     color: rgb(228, 228, 228);
     background-color: rgb(24, 23, 23);
     cursor: pointer;
@@ -58,8 +59,14 @@ nav a {
 
 .sub-menu li {
     padding: 10px 20px;
-    min-width: 100px;
+    min-width: 150px;
     background-color: rgb(24, 23, 23);
     color: rgb(228, 228, 228);
-    border-top: 0.5px solid rgba(70, 70, 70, 0.47)
+    border-top: 0.5px solid rgba(70, 70, 70, 0.47);
+    transition: all 0.3s ease-in-out;
+}
+
+.sub-menu li:hover {
+    background-color: #cb1212;
+    color: gainsboro;
 }
