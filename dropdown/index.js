@@ -1,3 +1,6 @@
+import './dropdown.css';
+
+//This generates HTML for a dropdown menu
 const dropdownGenerator = (function () {
   function createLogo() {
     const logo = document.createElement('div');
@@ -116,4 +119,8 @@ const dropdownGenerator = (function () {
   }
 
   createDropdown();
+
+  return { createDropdown };
 })();
+
+exports.createDropdown = dropdownGenerator.createDropdown;
