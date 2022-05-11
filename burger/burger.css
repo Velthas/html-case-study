@@ -17,6 +17,11 @@
 
     #burger-menu {
         display: flex;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    #burger-menu.active {
+        display: block;
     }
 
     .nav-links {
@@ -64,6 +69,24 @@
 
     .sub-menu.visible {
         display: block;
+    }
+
+    .active .one {
+        transform: translateY(12px) rotate(45deg);
+    }
+
+    .active .two {
+        transform:  translateY(8px) rotate(-45deg);
+    }
+
+    .active .one,
+    .active .two {
+        transition: transform 0.3s ease-in
+
+    }
+
+    .active .three {
+        display: none;
     }
 
 }

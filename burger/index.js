@@ -131,6 +131,10 @@ const dropdownGenerator = (function () {
 
         const navbarItems = document.querySelector('.nav-links');
         navbarItems.classList.toggle('visible');
+
+        burger.classList.toggle('active');
+
+
       })
       
 
