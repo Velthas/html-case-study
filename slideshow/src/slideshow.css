@@ -1,0 +1,44 @@
+#slideshow {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px auto 10px auto;
+}
+
+#slideshow-arrows {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 12px;
+    width: 90%;
+}
+
+#slideshow-arrows img {
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    padding: 10px;
+    transition: background-color 0.5s ease-in-out;
+}
+
+#slideshow-arrows img:hover {
+    background-color: red;
+}
+
+#dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+#dots img {
+    width: 18px;
+    height: 18px;
+}
+
+#dots img.active {
+    filter: contrast(0.5);
+}

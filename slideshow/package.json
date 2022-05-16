@@ -1,0 +1,20 @@
+{
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "prettier": "^2.6.2",
+    "style-loader": "^3.3.1",
+    "webpack-cli": "^4.9.2"
+  },
+  "name": "slideshow",
+  "version": "1.0.0",
+  "description": "Just a self-made, half-functioning, basic html slideshow generator",
+  "main": "slideshow.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Velthas",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^5.72.1"
+  }
+}
